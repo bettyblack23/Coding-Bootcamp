@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  margin: 0 auto;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 88.89vh;
+    /*top: 5.45%;*/
+  }
+}
+
+/*.main-content::after {
+  content: "";
+  display: block;
+  height: 0;
+
+  @include media-desktop {
+    height: 17vh;
+  }
+}*/
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 18px;
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content {
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 83.681vw;
+    position: relative;
+  }
+}
+
+.main-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content {
+    width: 50.5vw;
+    height: 45.5vw;
+    margin-right: 28px;
+  }
+}
+
+.main-content .content .mySlides {
+  display: none;
+}
+
+.main-content .content .mySlides .img-container {
+  background-image: url(images/pattern-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  width: 87.200vw;
+  height: 81.667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .img-container {
+    width: 48.611vw;
+    height: 45.694vw;
+    right: -44.4%;
+    position: relative;
+  }
+}
+
+.main-content .content .mySlides .img-container .profile-image {
+  margin-top: 10px;
+  width: 67.467vw;
+  height: 67.467vw;
+  border-radius: 4px;
+  box-shadow: 4px 35px 40px -18px rgba(97, 101, 151, 0.5);
+  -webkit-box-shadow: 4px 35px 40px -18px rgba(97, 101, 151, 0.5);
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .img-container .profile-image {
+    width: 37.431vw;
+    height: 37.431vw;
+  }
+}
+
+.main-content .content .mySlides .text {
+  width: 81.8vw;
+  margin: 32px auto 0 auto;
+  padding: 0;
+  line-height: 1.35;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .text {
+    width: 43.8vw;
+    text-align: left;
+    padding-bottom: 6px;
+    position: absolute;
+    left: 4%;
+    top: 18%;
+  }
+}
+
+.main-content .content .mySlides .text .desc {
+  background: url(images/pattern-quotes.svg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: auto 8.24vh;
+  background-position: top;
+  padding: 25px 0 16px 0;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #202046;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .text .desc {
+    width: 43.8vw;
+    font-size: 1.6rem;
+    background-size: auto 11vh;
+    padding-top: 65px;
+    padding-bottom: 38px;
+    background-position: 19% 0%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-content .content .mySlides .text .desc {
+    font-size: 2rem;
+  }
+}
+
+.main-content .content .mySlides .text .name {
+  color: #202046;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .text .name {
+    /*width: 43.8vw;*/
+    font-size: 1rem;
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-content .content .mySlides .text .name {
+    font-size: 1.25rem;
+  }
+}
+
+.main-content .content .mySlides .text .job {
+  color: #babacf;
+  font-size: 0.95rem;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .text .job {
+    /*width: 43.8vw;*/
+    font-size: 1rem;
+    /*1.25rem;*/
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-content .content .mySlides .text .job {
+    font-size: 1.25rem;
+  }
+}
+
+.main-content .content .mySlides .controller {
+  background-color: white;
+  width: 21.333vw;
+  height: 10.667vw;
+  border-radius: 45px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(2, 2, 197, 0.15);
+          box-shadow: 0px 0px 25px 0px rgba(2, 2, 197, 0.15);
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
+  -ms-transform: translate(-50%, -60%);
+  border: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .controller {
+    left: 31%;
+    -webkit-transform: translate(-60%, -60%);
+            transform: translate(-60%, -60%);
+    -ms-transform: translate(-60%, -60%);
+    width: 7.917vw;
+    height: 3.889vw;
+  }
+}
+
+.main-content .content .mySlides .controller .left-arrow {
+  height: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  height: 100%;
+}
+
+.main-content .content .mySlides .controller .left-arrow img {
+  height: 3.467vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .controller .left-arrow img {
+    height: 14px;
+  }
+}
+
+.main-content .content .mySlides .controller .right-arrow {
+  height: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  height: 100%;
+}
+
+.main-content .content .mySlides .controller .right-arrow img {
+  height: 3.467vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content .content .mySlides .controller .right-arrow img {
+    height: 14px;
+  }
+}
+
+.main-content .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  background-image: url(images/pattern-curve.svg);
+  background-size: 75% 100%;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 11%;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    background-size: 100% 100%;
+    width: 40%;
+    height: 17%;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
