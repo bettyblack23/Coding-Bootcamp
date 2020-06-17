@@ -67,6 +67,7 @@ body {
             flex-direction: row-reverse;
     width: 83.681vw;
     position: relative;
+    margin-bottom: 4.444444444444445vh;
   }
 }
 
@@ -153,7 +154,7 @@ body {
     padding-bottom: 6px;
     position: absolute;
     left: 4%;
-    top: 18%;
+    top: 19.5%;
   }
 }
 
@@ -324,20 +325,21 @@ body {
 
 footer {
   background-image: url(images/pattern-curve.svg);
-  background-size: 75% 100%;
+  background-size: 100% 100%;
   background-position: left bottom;
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 75%;
   height: 11%;
+  left: 0;
 }
 
 @media screen and (min-width: 1024px) {
   footer {
     background-size: 100% 100%;
     width: 40%;
-    height: 17%;
+    height: 20%;
     left: 0;
   }
 }
